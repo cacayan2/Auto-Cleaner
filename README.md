@@ -29,12 +29,21 @@ Use of the program requires administrator-level access. Please run the file usin
 
 ## Preventing/Fixing System-Wide Corruption (Without Installing 3rd Party Software)
 I have a general heuristic on how to prevent corruption on Windows OS machines that I typically use, and some ideas for recovery should the dreaded day ever come. Progress through each step if the previous fails.  
+  
+
     1. Frequently run the Auto-Cleaner file (I'd say every other month or so) to get rid of corruption that might slip through the cracks over time (especially if you frequently shut off the system incorrectly).  
+      
     2. If you have the space, frequently create restore points and backups of your system just in case you ever get compromised.  
+      
     3. If the file isn't fixing problems or your system is too corrupted to even run the file, go into your BIOS and starting OS in safe mode and running Auto-Cleaner in there.  
+        
     4. If you still have issues, run chkdsk /f /r and typing yes to the prompt and restarting your PC (also running antivirus scans at this point would be recommended as well if you haven't already).  
+      
     5. If chkdsk iddn't work or if some reason you can't boot into safe mode, your options are pretty bleak and will have to move to more drastic measures.  
         a. If you have a restore point for your Windows OS, enter the windows recovery environment (3 unsuccessful boots will trigger this, you can do this manually by turning on and off your pc with the power button 3 times before BIOS has a chance to load windows, or use the function keys - they are so inconsistent that for your version of Windows I recommend looking up how to access BIOS if the former idea seems too extreme for you).  
+          
         b. If you don't have a restore point or a backup, you can reinstall windows using the built-in windows reinstaller. Please note if you get to this point, it's likely that this is not working. Choose whether or not you'd like to keep personal files (sometimes Windows completely ignores this and deletes them anyway), and restore your Windows installation.  
+          
         c. It's game over at this point - your OS is beyond recovery. Get a recovery drive and reinstall windows (e.g. a flash drive - the entire drive needs to be empty beforehand). If you would like to bypass getting a new Windows license, then you will either have to purchase one or look up a guide on installing Windows without the license key (do this before making the recovery drive - I forget the details on the order in which things have to be done).  
+          
         d. If your drive for some reason won't allow you to reinstall windows because of passwords/encryption, that drive is essentially bricked (not even the Geek Squad will be able to help you - trust me, I know). Buy a new one and take the old one to a data recovery center if you want to retrieve the contents of the drive.  
