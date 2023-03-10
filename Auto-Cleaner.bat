@@ -104,11 +104,12 @@ goto check_Permissions
 
     :actual
         cls
-        ECHO Starting sfc /scannow...
+        ECHO Starting system file checker...
         START /WAIT /b sfc /scannow
         ECHO ___________________________________________________________________
         ECHO ___________________________________________________________________
-        call :c 0B "Finished sfc /scannow! Starting deployment image service management..."
+        ECHO.
+        call :c 0B "System file checker completed! Starting deployment image service management..."
         START /WAIT /b dism -online -cleanup-image -restorehealth
         call :c 0B "Finished dism -online -cleanup-image -restorehealth!" /n 
         ECHO ___________________________________________________________________

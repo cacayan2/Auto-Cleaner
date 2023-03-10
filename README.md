@@ -45,8 +45,9 @@ I have a general heuristic on how to prevent corruption on Windows OS machines t
         
     4. If you still have issues, run chkdsk /f /r and typing yes to the prompt and restarting your PC (also running antivirus scans at this point would be recommended as well if you haven't already).  
       
-    5. If chkdsk didn't work or if some reason you can't boot into safe mode, your options are pretty bleak and will have to move to more drastic measures.  
-        a. If you have a restore point for your Windows OS, enter the windows recovery environment (3 unsuccessful boots will trigger this, you can do this manually by turning on and off your pc with the power button 3 times before BIOS has a chance to load windows, or use the function keys - they are so inconsistent that for your version of Windows I recommend looking up how to access BIOS if the former idea seems too extreme for you).  
+    5. If chkdsk didn't work or if some reason you can't boot into safe mode, your options are pretty bleak and will have to move to more drastic measures.    
+        a. If you have a restore point for your Windows OS, enter the windows recovery environment (3 unsuccessful boots will trigger this, you can do this manually by turning on and  
+        off your pc with the power button 3 times before BIOS has a chance to load windows, or use the function keys - they are so inconsistent that for your version of Windows I recommend looking up how to access BIOS if the former idea seems too extreme for you).  
           
         b. If you don't have a restore point or a backup, you can reinstall windows using the built-in windows reinstaller. Please note if you get to this point, it's likely that this is not working. Choose whether or not you'd like to keep personal files (sometimes Windows completely ignores this and deletes them anyway), and restore your Windows installation.  
           
