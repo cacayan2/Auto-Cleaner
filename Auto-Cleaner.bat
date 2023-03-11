@@ -111,7 +111,7 @@ goto check_Permissions
         ECHO.
         call :c 0B "System file checker completed! Starting deployment image service management..."
         START /WAIT /b dism -online -cleanup-image -restorehealth
-        call :c 0B "Finished dism -online -cleanup-image -restorehealth!" /n 
+        call :c 0B "Finished deployment image service management!" /n 
         ECHO ___________________________________________________________________
         ECHO ___________________________________________________________________
         ECHO.
